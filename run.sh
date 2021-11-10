@@ -20,7 +20,7 @@ fi
 
 info 'Installing pip...'
 sudo apt-get update
-sudo apt-get install -y python-pip libpython-all-dev zip
+sudo apt-get install -y python3-pip libpython-all-dev zip
 
 info 'Installing the AWS CLI...';
 sudo pip install awscli;
